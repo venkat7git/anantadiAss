@@ -1,0 +1,25 @@
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .loader-spinner{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  .video-item {
+    flex: 1 1 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: #6a329f;
+  }
+  
+  .video-item h3 {
+    margin-top: 0;
+  }
+  
+ 

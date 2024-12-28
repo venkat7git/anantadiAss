@@ -1,0 +1,49 @@
+.video-header-container{
+    background-color: transparent;
+    margin: 4px 20px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-container{
+    border: 1px solid #ffffff;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 5px;
+    border-radius: 7px;
+}
+.video-header-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.video-header-search-input{
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+}
+.span-line{
+    margin-left: 4px;
+}
+.filter-container{
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.filter-button{
+    margin-left: 10px;
+    padding: 5px 8px 5px 8px;
+    color:#ffffff;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    font-size: 12px;
+    background-color: transparent;
+}
+
+.filter-button:hover{
+    cursor: pointer;
+}

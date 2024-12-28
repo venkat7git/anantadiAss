@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7a43a6; /* Purple background */
+  color: #fff; /* White text color */
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.main-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #7a43a6;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #ececec;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .main-content {
+    padding: 10px;
+  }
+
+  input {
+    width: 95%;
+  }
+
+  .signup-link {
+    justify-content: center;
+  }
+}

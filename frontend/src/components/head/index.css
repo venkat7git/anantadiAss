@@ -1,0 +1,70 @@
+.header {
+  background-color: transparent; /* Darker purple for the header background */
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  
+  
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+.sign-container{
+  display: flex;
+  width: 25%;
+}
+
+.active {
+  border-bottom: 2px solid #fff;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+.logo-para{
+  margin: 0px;
+  padding: 0px;
+}
+
+.sierra-image{
+  width: 11%;
+  margin-right: 10px;
+}
+
+.logo{
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}
